@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- VD1 -->
+
+    <!-- <h2>Tạo checkbox checked bằng javascript</h2>
+    <p>Hướng dẫn tạo ô checkbox checked bằng Javascript</p>
+
+    <h4>
+      Bạn là fanpage của freetuts.net phải không? chọn nếu phải và không chọn
+      nếu không phải.
+    </h4>
+    <input type="checkbox" value="0" id="checkbox1" /> Vâng, đúng rồi
+
+    <br />
+    <br />
+    <br />
+    <input type="button" id="btn1" value="Chọn" />
+    <input type="button" id="btn2" value="Bỏ chọn" /> -->
+    <!-- VD2 -->
+
+    <!-- <h2>Lấy giá trị của checkbox bằng Javascript</h2>
+    <p>
+      Hãy viết chương trình khi click vào button thì in ra danh sách sở thích mà
+      người dùng đã chọn.
+    </p>
+
+    <input type="checkbox" name="hobby" value="Đi chơi" />
+    <label>Đi chơi</label> <br />
+    <input type="checkbox" name="hobby" value="Đi du lịch" />
+    <label>Đi du lịch</label> <br />
+    <input type="checkbox" name="hobby" value="Đi ăn" /> <label>Đi ăn</label>
+    <br />
+    <input type="checkbox" name="hobby" value="Đi siêu thị" />
+    <label>Đi siêu thị</label> <br />
+    <input type="checkbox" name="hobby" value="học lập trình" />
+    <label>học lập trình</label> <br />
+    <input type="checkbox" name="hobby" value="Lướt freetuts.net" />
+    <label>Lướt freetuts.net</label> <br />
+    <br />
+
+    <input type="button" id="btn" value="Xem kết quả" /> -->
+
+    <!-- VD3 -->
+    <!-- <h2>Bắt sự kiện checkbox trong Javascript</h2>
+    <p>Viết chương trình bắt sự kiện check và uncheck của Javascript.</p>
+
+    <input type="checkbox" id="action" value="1" />
+    <label for="action">Bạn có thích blog freetuts.net không?</label> -->
+
+    <!-- VD4 -->
+    <!-- <h2>Tạo check all và uncheck all trong Javascript</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr style="font-weight: bold">
+        <td><input type="checkbox" name="name[]" id="check_all" value="" /></td>
+        <td>Nguyễn Văn Cường</td>
+      </tr>
+      <tr style="font-weight: bold">
+        <td><input type="checkbox" name="name[]" id="check_all" value="" /></td>
+        <td>Vũ Thị Thu Tình</td>
+      </tr>
+      <tr style="font-weight: bold">
+        <td><input type="checkbox" name="name[]" id="check_all" value="" /></td>
+        <td>Nguyễn Văn Thiên</td>
+      </tr>
+      <tr style="font-weight: bold">
+        <td><input type="checkbox" name="name[]" id="check_all" value="" /></td>
+        <td>Nguyễn Thị Thanh Thu</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <input type="button" id="btn1" value="Chọn hết" />
+    <input type="button" id="btn2" value="Bỏ chọn" /> -->
+
+    <!-- VD5 -->
+    <!-- <h2>Lấy giá trị của checkbox</h2>
+    <p>Lấy giá trị Nam hoặc Nữ khi click vào button bên dưới đây.</p>
+
+    <h4>Chọn giới tính của bạn</h4>
+    <input type="radio" value="Name" name="gender" /> Name <br />
+    <input type="radio" value="Nữ" name="gender" /> Nữ <br />
+
+    <input type="button" id="btn1" value="Hiển thị" /> -->
+
+    <!-- VD6 -->
+    <h2>Chọn giới tính</h2>
+    <p>In ra thông báo khi giới tính được thay đổi</p>
+    <select id="gender" onchange="genderChanged(this)">
+      <option value="">-- Chọn --</option>
+      <option value="nam">Nam</option>
+      <option value="nu">Nữ</option>
+    </select>
+    <p style="color: red" id="show_message"></p>
+    <script src="./main.js"></script>
+  </body>
+</html>
